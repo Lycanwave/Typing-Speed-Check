@@ -1,5 +1,68 @@
+
+.testing-word-container{
+  width: 40%;
+  /* height: 200px; */
+  /* background-color: red; */
+  margin-left: 29.5%;
+  padding: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+}
+
+.input{
+  height: 30px;
+  width: 40%;
+  font-size: 97%;
+  border-color: #d5d4d5;
+  /* background-color: #FFFFFF; */
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-style: solid;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.input:focus{
+  /* box-shadow: none; */
+  /* outline: none; */
+  outline-color: #d5d4d5;
+  outline-width: 1px;
+  outline-style: solid;
+}
+
+.correct{
+  font-weight: bold;
+  color: green;
+  font-size: 1.2rem;
+  /* background-color: black; */
+
+}
+
+.incorrect{
+  text-decoration: line-through;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: red;
+  /* background-color: black; */
+}
+
+.active{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+
 .App {
+
   text-align: center;
+  justify-content: center;
+  align-items: center;
+
+
 }
 
 .App-logo {
